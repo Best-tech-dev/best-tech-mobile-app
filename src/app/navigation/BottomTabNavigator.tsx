@@ -4,12 +4,12 @@ import { BottomTabParamList } from './types';
 import { HomeScreen } from '../screens/HomeScreen';
 import { ServicesScreen } from '../screens/ServicesScreen';
 import { BlogScreen } from '../screens/BlogScreen';
-import { ContactScreen } from '../screens/ContactScreen';
+import { CoursesScreen } from '../screens/CoursesScreen';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, tabBarStyle } from '../theme/theme';
 import { View, Text } from 'react-native';
 import { styled } from 'nativewind';
-
+import { StudentScreen } from '../screens/StudentScreen';
 const StyledView = styled(View);
 const StyledText = styled(Text);
 
@@ -94,6 +94,19 @@ export const BottomTabNavigator = () => {
         }}
       />
       <Tab.Screen
+        name={SCREEN_NAMES.STUDENT}
+        component={StudentScreen}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <CustomTabBarIcon
+              focused={focused}
+              iconName="person"
+              label="Student"
+            />
+          ),
+        }}
+      />
+      <Tab.Screen
         name={SCREEN_NAMES.BLOG}
         component={BlogScreen}
         options={{
@@ -107,14 +120,14 @@ export const BottomTabNavigator = () => {
         }}
       />
       <Tab.Screen
-        name={SCREEN_NAMES.CONTACT}
-        component={ContactScreen}
+        name={SCREEN_NAMES.COURSES}
+        component={CoursesScreen}
         options={{
           tabBarIcon: ({ focused }) => (
             <CustomTabBarIcon
               focused={focused}
-              iconName="person"
-              label="Contact"
+              iconName="book"
+              label="Courses"
             />
           ),
         }}

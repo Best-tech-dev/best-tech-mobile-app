@@ -1,3 +1,5 @@
+import { Ionicons } from '@expo/vector-icons';
+
 export type ScreenProps = {
   navigation: any;
   route: any;
@@ -30,4 +32,21 @@ export type BlogPost = {
   category: string;
   image: string;
   backgroundColor: string;
+};
+
+export type Course = {
+  id: number;
+  title: string;
+  instructor: string;
+  rating: number;
+  students: number;
+  price: number;
+  image: any;
+  tags?: string[];
+};
+
+export type Category = {
+  id: number;
+  name: string;
+  icon: keyof typeof Ionicons.glyphMap;
 }; 

@@ -22,9 +22,9 @@ const MOCK_TESTIMONIALS: Testimonial[] = [
   },
   {
     id: '2',
-    name: 'Jane Smith',
-    position: 'CTO',
-    company: 'InnovateX',
+    name: 'Gbadega Adedapo',
+    position: 'CEO',
+    company: 'Accessible Group',
     content: 'Their expertise in mobile app development helped us reach new markets.',
     backgroundColor: '#F3E5F5', // Light purple
     image: 'testimonial-2.jpg'

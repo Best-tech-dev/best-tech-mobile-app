@@ -6,9 +6,10 @@ export const SCREEN_NAMES = {
   HOME: 'HomeTab',
   ABOUT: 'About',
   SERVICES: 'ServicesTab',
+  STUDENT: 'Student',
+  COURSES: 'Courses',
   BLOG: 'BlogTab',
   SUPPORT: 'Support',
-  CONTACT: 'ContactTab',
 };
 
 export const SERVICE_CATEGORIES = [
