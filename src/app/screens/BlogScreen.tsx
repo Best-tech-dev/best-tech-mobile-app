@@ -35,7 +35,7 @@ type BlogSection = {
 const blogSections: BlogSection[] = [
   {
     id: 1,
-    title: 'Software Development',
+    title: 'Featured Articles',
     icon: 'code-outline',
     posts: [
       {
@@ -45,7 +45,7 @@ const blogSections: BlogSection[] = [
         category: 'Frontend Development',
         date: '2024-04-15',
         readTime: '5 min read',
-        image: require('../../../assets/images/imgs/blog-img-1.png'),
+        image: require('../../../assets/images/blog-images/ai-history.gif'),
         author: {
           name: 'Mayowa Bernard',
           avatar: require('../../../assets/images/imgs/blog-img-2.png')
@@ -53,12 +53,12 @@ const blogSections: BlogSection[] = [
       },
       {
         id: 2,
-        title: 'The Future of Frontend Development',
+        title: 'AI in Law',
         excerpt: 'Exploring the latest trends and technologies shaping the future of frontend development...',
         category: 'Frontend Development',
         date: '2024-04-15',
         readTime: '5 min read',
-        image: require('../../../assets/images/imgs/blog-img-1.png'),
+        image: require('../../../assets/images/blog-images/AI-in-law.png'),
         author: {
           name: 'Mayowa Bernard',
           avatar: require('../../../assets/images/imgs/blog-img-2.png')
@@ -78,7 +78,7 @@ const blogSections: BlogSection[] = [
         category: 'Frontend Development',
         date: '2024-04-15',
         readTime: '5 min read',
-        image: require('../../../assets/images/imgs/blog-img-1.png'),
+        image: require('../../../assets/images/imgs/blog-img-3.jpeg'),
         author: {
           name: 'Mayowa Bernard',
           avatar: require('../../../assets/images/imgs/blog-img-2.png')
@@ -86,12 +86,12 @@ const blogSections: BlogSection[] = [
       },
       {
         id: 4,
-        title: 'The Future of Frontend Development',
+        title: 'Teamwork causing Increase in productivity',
         excerpt: 'Exploring the latest trends and technologies shaping the future of frontend development...',
         category: 'Frontend Development',
         date: '2024-04-15',
         readTime: '5 min read',
-        image: require('../../../assets/images/imgs/blog-img-1.png'),
+        image: require('../../../assets/images/imgs/blog-img-4.png'),
         author: {
           name: 'Mayowa Bernard',
           avatar: require('../../../assets/images/imgs/blog-img-2.png')
